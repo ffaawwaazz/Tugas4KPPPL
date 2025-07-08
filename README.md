@@ -47,3 +47,13 @@ Apa kegiatan yang paling kamu nikmati di waktu luang, dan mengapa kamu menyukain
 - Model yang digunakan adalah gemini-1.5-flash karena gemini-pro tidak tersedia di v1beta.
 
 - API key harus dijaga dan tidak dibagikan secara publik.
+
+-------------------------
+![image](https://github.com/user-attachments/assets/98074733-acc2-4a46-876d-394bae3e1c1c)
+--------------
+Input : 
+![image](https://github.com/user-attachments/assets/181b112b-3253-48aa-a05a-c2298109cc27)
+
+Output : 
+![image](https://github.com/user-attachments/assets/e595c704-7ef7-4367-8fc5-24f3986a3af2)
+---------------
