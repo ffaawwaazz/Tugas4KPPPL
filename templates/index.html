@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tes Minat Bakat AI</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Tes Minat Bakat AI</h1>
+    <p>Klik tombol di bawah untuk memulai tes. Pertanyaan akan diberikan oleh AI secara interaktif.</p>
+
+    <!-- Tombol Mulai Tes -->
+    <button id="startBtn" onclick="mulaiTes()">Mulai Tes</button>
+
+    <!-- Kontainer Pertanyaan -->
+    <div id="pertanyaan-container" class="hidden">
+      <p id="pertanyaan">Memuat pertanyaan...</p>
+      <textarea id="jawaban" placeholder="Tulis jawabanmu di sini..."></textarea>
+      <button onclick="kirimJawaban()">Kirim Jawaban</button>
+    </div>
+
+    <!-- Kontainer Hasil Rekomendasi -->
+    <div id="hasil-container" class="hidden">
+      <h2>Rekomendasi Jurusan:</h2>
+      <div id="hasil"></div>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
